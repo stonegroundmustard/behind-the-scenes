@@ -1,0 +1,35 @@
+{
+  "name": "module13",
+  "version": "1.0.0",
+  "description": "e commerce backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo",
+    "start": "node server.js",
+    "seed": "node routes/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stonegroundmustard/behind-the-scenes.git"
+  },
+  "keywords": [
+    "ecommerce",
+    "backend",
+    "npm",
+    "insomnia",
+    "models"
+  ],
+  "author": "Fox Stokes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stonegroundmustard/behind-the-scenes/issues"
+  },
+  "homepage": "https://github.com/stonegroundmustard/behind-the-scenes#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mysql2": "^3.1.0",
+    "seed": "^0.4.4",
+    "sequelize": "^6.28.0"
+  }
+}
